@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Converter</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>Welcome to number system converter</h1>
+    <div class="con1">
+    <label for="Number1"></label>
+    <select name="Number1" id="Number1" onchange="{msgPrint1()}">
+    <option value="">Select</option>
+    <option value="binary">Binary</option>
+    <option value="octal">Octal</option>
+    <option value="decimal">Decimal</option>
+    <option value="hexadecimal">Hexadecimal</option>
+    </select>
+    <label for="Number2"></label>
+    <select name="Number2" id="Number2" onchange="{msgPrint2()}">
+    <option value="">Select</option>
+    <option value="binary">Binary</option>
+    <option value="octal">Octal</option>
+    <option value="decimal">Decimal</option>
+    <option value="hexadecimal">Hexadecimal</option>
+    </select>
+</div>
+<div class="con2">
+     <input type="text" placeholder="" id="msg" class="msg">
+      <input type="text" placeholder="" id="msg1" class="msg"><br><br>
+    <input type="text" placeholder="" id="txt1" class="txt">
+    <input type="text" placeholder="" id="result" class="result">
+    </div>
+<div class="con3">
+    <button type="submit" onclick="{myfunc()}" id="btn">Convert</button>
+    <button type="submit" onclick="{reset()}" id="btn">Reset</button>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+.msg{
+    border: none;
+    background-color: palevioletred;
+    font-size: 14px;
+    color: white;
+}
+h1{
+    color: purple;
+    text-align: center;
+    background-color: plum;
+    width: 50%;
+    margin: auto;
+}
+.con1{
+    text-align: center;
+    background-color: palevioletred;
+    height: 40px;
+    width: 50%;
+    margin: auto;
+}
+.con2{
+    text-align: center;
+    background-color: palevioletred;
+    height: 60px;
+    width: 50%;
+    margin: auto;
+}
+.con3{
+    text-align: center;
+    background-color: palevioletred;
+    height: 40px;
+    width: 50%;
+    margin: auto;
+}
+#btn{
+    color: purple;
+    background-color: pink;
+    margin-top: 10px;
+}
+#Number1{
+    color:pink;
+    color: darkorchid;
+    font-style: italic;
+    background-color: pink;
+}
+#Number2{
+    color:pink;
+    color: darkorchid;
+    font-style: italic;
+    background-color: pink;
+}
+body{
+   background: linear-gradient(to top left,red,green,yellow);
+   background-size:cover,900px
+    
+}
