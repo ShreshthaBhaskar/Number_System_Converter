@@ -50,7 +50,7 @@ h1{
     background-color: pink;
 }
 body{
-   background: linear-gradient(to top left,red,green,yellow);
+   background: linear-gradient(to top left,red,rgb(61, 63, 210),yellow);
    background-size:cover,900px
     
 }
